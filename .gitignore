@@ -1,0 +1,37 @@
+# Binary (Hasil build aplikasi)
+# Tambahkan nama file biner spesifik kamu jika tidak menggunakan nama standar
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+bin/
+out/
+dist/
+main
+app
+
+# Dependency (Opsional)
+# Umumnya vendor/ tidak di-commit kecuali tim kamu mewajibkannya
+# vendor/
+
+# Configuration (Data sensitif)
+.env
+.env.*
+!.env.example
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Log files
+*.log
+
+# Testing
+coverage.out
+coverage.all
+
+# Tool khusus seperti Air (Live Reload)
+/tmp/
